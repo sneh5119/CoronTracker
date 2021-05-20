@@ -1,0 +1,14 @@
+.btnbox{
+    cursor: pointer;
+} 
+.card{
+    width: 40%;
+    margin:5px 12px;
+}
+
+.card-body{
+    display:block;
+  /* padding:10px 22px; */
+  text-align: center; 
+  text-decoration:none;
+}

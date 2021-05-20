@@ -1,0 +1,10 @@
+
+<br>
+<h2>Find the Data of the state ...</h2>
+
+<ul *ngFor="let e of data | keyvalue">
+  <li>
+      <a (click)="stateNavigate(e.key)" class="btnbox">{{e.key}}</a>
+ </li>
+</ul>
+

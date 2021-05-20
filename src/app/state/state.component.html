@@ -1,0 +1,9 @@
+
+<br>
+<h3>Districts in the state..</h3>
+<ul *ngFor="let element of stateObj | keyvalue">
+    <li><a (click)="districtNavigate(element.key)">
+        {{element.key}}</a>
+    </li>
+</ul>
+
